@@ -6,6 +6,7 @@ document.getElementById('search-input').addEventListener('keyup', function(event
 
 function performSearch() {
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
+
   const products = document.querySelectorAll('.product');
 
   let found = false;
